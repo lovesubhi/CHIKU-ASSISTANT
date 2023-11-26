@@ -9,13 +9,13 @@ from telethon import __version__ as s
 from CHIKU import OWNER_ID, dispatcher
 from CHIKU import pbot as client
 
-DAXX = "https://graph.org/file/22f4ce50778692e31a3b8.jpg"
+CHIKU = "https://graph.org/file/22f4ce50778692e31a3b8.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
 async def repo(client, message):
     await message.reply_photo(
-        photo=DAXX,
+        photo=CHIKU,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
 **» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴅᴇᴠᴇʟᴏᴘᴇʀ](tg://user?id={OWNER_ID})
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/daxxsir3",
+                        url="https://t.me/II_CHIKU_X_AHI_DOSTU_II",
                     ),
                 ]
             ]
